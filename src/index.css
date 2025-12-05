@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #4D152D;
+  --color-secondary: rgb(245 245 244);;
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+}
+
+@layer base {
+  html {
+    font-size: 16px; /* Desktop */
+  }
+
+  @media (max-width: 1024px) {
+    html {
+      font-size: 15px; /* Tablet */
+    }
+  }
+
+  @media (max-width: 768px) {
+    html {
+      font-size: 14px; /* Mobile */
+    }
+  }
+
+  @media (max-width: 480px) {
+    html {
+      font-size: 12px; /* Small Mobile */
+    }
+  }
+
+  *, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Mulish", sans-serif;
+    @apply bg-white text-black; 
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: "Arapey", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+}
+
+
+@layer components {
+
+}
+
+/* 4. UTILITIES Layer: for custom utility classes */
+@layer utilities {
+  .social-icon {
+      width: 15px;
+      height: 15px;
+  }
+}
