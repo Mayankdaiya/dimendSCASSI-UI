@@ -1,19 +1,33 @@
 import React from 'react'
 import './menu.css';
+import ImgSolitare from "../../assets/hovered/m1-solitare.webp";
+import ImgPave from "../../assets/hovered/m1-pave.webp";
+import ImgHalo from "../../assets/hovered/m1-halo.webp";
+import ImgAccents from "../../assets/hovered/m1-accents.webp";
+import ImgVintage from "../../assets/hovered/m1-vintage.webp";
+import ImgSideStones from "../../assets/hovered/m1-stones.webp";
+import ImgThreeStones from "../../assets/hovered/m1-3stones.webp";
+import ImgShapedShank from "../../assets/hovered/m1-shank.webp";
+import ImgFloral from "../../assets/hovered/m1-floral.webp";
+import ImgSignature from "../../assets/hovered/m1-signature.webp";
+import ImgCollection from "../../assets/hovered/m1-collection.webp";
+import ImgArrivals from "../../assets/hovered/m1-arrivals.webp";
+
 
 const EngagementRings = () => {
   const items = [
-    { img: "/src/assets/hovered/m1-solitare.webp", title: "Solitare" },
-    { img: "/src/assets/hovered/m1-pave.webp", title: "Pave" },
-    { img: "/src/assets/hovered/m1-halo.webp", title: "Halo" },
-    { img: "/src/assets/hovered/m1-accents.webp", title: "Hidden Accents" },
-    { img: "/src/assets/hovered/m1-vintage.webp", title: "Vintage" },
-    { img: "/src/assets/hovered/m1-stones.webp", title: "Side Stones" },
-    { img: "/src/assets/hovered/m1-3stones.webp", title: "Three-Stone" },
-    { img: "/src/assets/hovered/m1-shank.webp", title: "Shaped Shank" },
-    { img: "/src/assets/hovered/m1-floral.webp", title: "Floral" },
-    { img: "/src/assets/hovered/m1-signature.webp", title: "Signature Styles" },
-  ];
+  { img: ImgSolitare, title: "Solitare" },
+  { img: ImgPave, title: "Pave" },
+  { img: ImgHalo, title: "Halo" },
+  { img: ImgAccents, title: "Hidden Accents" },
+  { img: ImgVintage, title: "Vintage" },
+  { img: ImgSideStones, title: "Side Stones" },
+  { img: ImgThreeStones, title: "Three-Stone" },
+  { img: ImgShapedShank, title: "Shaped Shank" },
+  { img: ImgFloral, title: "Floral" },
+  { img: ImgSignature, title: "Signature Styles" },
+];
+
 
 
 
@@ -57,11 +71,11 @@ const EngagementRings = () => {
       <div className='w-[25%]'>
         <h2 className='lg:text-2xl text-xl uppercase my-4'>Custom Engagement Rings</h2>
         <div className='relative'>
-          <img src="/src/assets/hovered/m1-collection.webp" alt="Luxury-collection" className='w-full h-auto'/>
+          <img src={ImgCollection} alt="Luxury-collection" className='w-full h-auto'/>
           <span className='absolute left-[50%] bottom-[5%] -translate-x-1/2 uppercase text-nowrap'>Luxury Collection</span>
         </div>
         <div className='relative mt-6'>
-          <img src="/src/assets/hovered/m1-arrivals.webp" alt="Latest-arrivals" className='w-full h-auto'/>
+          <img src={ImgArrivals} alt="Latest-arrivals" className='w-full h-auto'/>
           <span className='absolute left-[50%] bottom-[5%] -translate-x-1/2 uppercase text-nowrap'>Latest Arrivals</span>
         </div>  
       </div>

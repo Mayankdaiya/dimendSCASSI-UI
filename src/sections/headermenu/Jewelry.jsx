@@ -1,18 +1,29 @@
 import React from 'react'
+import ImgTennis from "../../assets/hovered/m5-tennis.webp";
+import ImgHoop from "../../assets/hovered/m5-hoop.webp";
+import ImgStuds from "../../assets/hovered/m5-studs.webp";
+import ImgChains from "../../assets/hovered/m5-chains.webp";
+
+import ImgPendants from "../../assets/hovered/m5-pendants.webp";
+import ImgBracelets from "../../assets/hovered/m5-bracelets.webp";
+import ImgEarrings from "../../assets/hovered/m5-earrings.webp";
+import ImgNecklaces from "../../assets/hovered/m5-necklaces.webp";
+
 
 const Jewelry = () => {
     const items1 = [
-        { img: "/src/assets/hovered/m5-tennis.webp", title: "Diamond Tennis Bracelets" },
-        { img: "/src/assets/hovered/m5-hoop.webp", title: "Hoop Earrings" },
-        { img: "/src/assets/hovered/m5-studs.webp", title: "Diamond Studs" },
-        { img: "/src/assets/hovered/m5-chains.webp", title: "Gold Chains" },
+        { img: ImgTennis, title: "Diamond Tennis Bracelets" },
+        { img: ImgHoop, title: "Hoop Earrings" },
+        { img: ImgStuds, title: "Diamond Studs" },
+        { img: ImgChains, title: "Gold Chains" },
     ];
     const items2 = [
-        { img: "/src/assets/hovered/m5-pendants.webp", title: "Pendants" },
-        { img: "/src/assets/hovered/m5-bracelets.webp", title: "Bracelets" },
-        { img: "/src/assets/hovered/m5-earrings.webp", title: "Earrings" },
-        { img: "/src/assets/hovered/m5-necklaces.webp", title: "Necklaces" },
+        { img: ImgPendants, title: "Pendants" },
+        { img: ImgBracelets, title: "Bracelets" },
+        { img: ImgEarrings, title: "Earrings" },
+        { img: ImgNecklaces, title: "Necklaces" },
     ];
+
 
 
     return (

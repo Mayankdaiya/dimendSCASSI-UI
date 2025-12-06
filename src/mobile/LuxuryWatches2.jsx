@@ -1,4 +1,5 @@
 import React from 'react'
+import ImgLuxuryWatches21 from "../assets/luxury-watches21.webp";
 
 const LuxuryWatches2 = () => {
     const rowPattern = [3, 4, 3];
@@ -19,7 +20,7 @@ const LuxuryWatches2 = () => {
     return (
         <section className='mt-20'>
             <div className='relative'>
-                <img src="src/assets/luxury-watches21.webp" alt="stunning-collection-of-luxury-watches-in-Chicago"
+                <img src={ImgLuxuryWatches21} alt="stunning-collection-of-luxury-watches-in-Chicago"
                     className='w-full h-auto' />
                 <div className='w-full absolute bottom-0 flex flex-col items-center text-white text-center px-[10%]'>
                     <h1 className='text-4xl uppercase'>Best Luxury Watches</h1>

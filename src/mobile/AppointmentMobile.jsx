@@ -1,5 +1,9 @@
 import React from 'react'
 import { useState } from 'react';
+import ImgAppointment1 from "../assets/appointment1.webp";
+import ImgAppointment2 from "../assets/appointment2.webp";
+import ImgAppointment3 from "../assets/appointment3.webp";
+
 
 const AppointmentMobile = () => {
   const [openIndex, setOpenIndex] = useState(null);
@@ -12,7 +16,7 @@ const AppointmentMobile = () => {
     return (
         <section className='my-16'>
             <div className='relative'>
-                <img src="src/assets/appointment1.webp" alt="luxurious-diamond-wedding-bands-collection" className='w-full h-auto' />
+                <img src={ImgAppointment1} alt="luxurious-diamond-wedding-bands-collection" className='w-full h-auto' />
                 <div className="absolute top-[70%] mx-[5%] px-4 pt-5 pb-7 rounded bg-[#4D152D] z-1">
                     <span className='uppercase text-sm mx-4 text-white'>From a Dream to reality</span>
                     {items.map((item, index) => (
@@ -37,8 +41,8 @@ const AppointmentMobile = () => {
                 </div>
             </div>
             <div className='relative'>
-                <img src="src/assets/appointment2.webp" alt="luxurious-diamond-wedding-bands-collection" className='w-full h-auto' />
-                <img src="src/assets/appointment3.webp" alt="luxurious-diamond-wedding-bands-collection" className='w-full h-auto' />
+                <img src={ImgAppointment2} alt="luxurious-diamond-wedding-bands-collection" className='w-full h-auto' />
+                <img src={ImgAppointment3} alt="luxurious-diamond-wedding-bands-collection" className='w-full h-auto' />
                 <div className='w-full absolute top-1/2 -translate-y-full flex flex-col items-center text-center gap-5 px-[4%]'>
                     <h1 className='uppercase text-3xl'>Handmade in chicago</h1>
                     <span className='block'>We look forward to meeting you and catering to your Jewelry needs. Need to design your own? Whether lab grown diamond or other exquisite gemstone, let us help bring your personal idea to life!</span>

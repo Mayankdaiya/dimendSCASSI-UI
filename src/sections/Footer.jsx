@@ -1,4 +1,5 @@
 import React from 'react'
+import ImgDimendScassi from "../assets/dimendSCASSI.webp";
 
 const Footer = () => {
     const flinks = [
@@ -16,7 +17,7 @@ const Footer = () => {
         <section>
             <div className='mx-[3%] flex justify-between'>
                 <div className='flex flex-col items-start justify-around p-4'>
-                    <img src='/src/assets/dimendSCASSI.webp' className='lg:w-54 w-44' alt='logo'></img>
+                    <img src={ImgDimendScassi} className='lg:w-54 w-44' alt='logo'/>
                     <div className="flex flex-wrap gap-2">
                         {footerIcons1.map((pos, index) => (
                             <a href="#" target="_blank" key={index}>

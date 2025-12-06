@@ -1,12 +1,20 @@
 import React from 'react'
+import ImgAnniversary from "../../assets/hovered/m6-anniversary.webp";
+import ImgHoliday from "../../assets/hovered/m6-holiday.webp";
+import ImgValentine from "../../assets/hovered/m6-valentine.webp";
+import ImgMother from "../../assets/hovered/m6-mother.webp";
+import ImgWedding from "../../assets/hovered/m6-wedding.webp";
+import ImgJewelry from "../../assets/hovered/m6-jewelry.webp";
+
 
 const Gifts = () => {
     const items = [
-        { img: "/src/assets/hovered/m6-anniversary.webp", title: "Anniversary Gifts" },
-        { img: "/src/assets/hovered/m6-holiday.webp", title: "Holiday Gifts" },
-        { img: "/src/assets/hovered/m6-valentine.webp", title: "Valentine's Day Gifts" },
-        { img: "/src/assets/hovered/m6-mother.webp", title: "Mother's Day Gifts" },
+        { img: ImgAnniversary, title: "Anniversary Gifts" },
+        { img: ImgHoliday, title: "Holiday Gifts" },
+        { img: ImgValentine, title: "Valentine's Day Gifts" },
+        { img: ImgMother, title: "Mother's Day Gifts" },
     ];
+
 
     return (
         <section className='px-[3%]'>
@@ -21,11 +29,11 @@ const Gifts = () => {
                 </div>
                 <div className='flex flex-col justify-between'>
                     <div className="relative">
-                        <img src='/src/assets/hovered/m6-wedding.webp' alt='Wedding-ring-sets' className="w-full aspect-3/2 h-auto object-cover rounded" />
+                        <img src={ImgWedding} alt='Wedding-ring-sets' className="w-full aspect-3/2 h-auto object-cover rounded" />
                         <span className='block w-full text-center absolute bottom-[5%] uppercase text-white xl:text-base text-sm'>Wedding Ring Sets</span>
                     </div>
                     <div className="relative">
-                        <img src='/src/assets/hovered/m6-jewelry.webp' alt='jewelry-gift-guide' className="w-full aspect-3/2 h-auto object-cover rounded" />
+                        <img src={ImgJewelry} alt='jewelry-gift-guide' className="w-full aspect-3/2 h-auto object-cover rounded" />
                         <span className='block w-full text-center absolute top-[40%] uppercase text-white xl:text-base text-sm'>Jewelry Gift Guide</span>
                     </div>
                 </div>

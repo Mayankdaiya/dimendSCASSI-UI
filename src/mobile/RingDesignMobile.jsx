@@ -1,12 +1,13 @@
 import React from 'react'
 import { useState } from 'react';
+import ImgDesignRing1 from "../assets/design-ring1.webp";
+import ImgDesignRing2 from "../assets/design-ring2.webp";
 
 const RingDesignMobile = () => {
     const [show, setShow] = useState(false);
-    // des={'design in chicago'} path={['src/assets/design-ring1.webp', 'src/assets/design-ring2.webp']}
   return (
     <section className='my-16'>
-        <img src="src/assets/design-ring1.webp" alt="design in chicago" className='w-full h-auto'/>
+        <img src={ImgDesignRing1} alt="design in chicago" className='w-full h-auto'/>
         <div className='flex flex-col items-center text-center px-8 py-20'>
             <h1 className='text-3xl uppercase'>Design your own ring</h1>
             <span className='text-sm my-3'>With a commitment to both sustainability and tradition, we offer a diverse selection of mined and lab grown diamonds Chicago customers can choose from with confidence.</span>
@@ -20,7 +21,7 @@ const RingDesignMobile = () => {
                 </div>
             </div>
         </div>
-        <img src="src/assets/design-ring2.webp" alt="design in chicago" className='w-full h-auto'/>
+        <img src={ImgDesignRing2} alt="design in chicago" className='w-full h-auto'/>
     </section>
   )
 }

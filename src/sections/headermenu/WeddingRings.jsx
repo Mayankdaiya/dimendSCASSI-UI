@@ -1,20 +1,33 @@
 import React from 'react'
+import ImgClassic from "../../assets/hovered/m2-classic.webp";
+import ImgDiamond from "../../assets/hovered/m2-diamond.webp";
+import ImgEternity from "../../assets/hovered/m2-eternity.webp";
+import ImgTexture from "../../assets/hovered/m2-texture.webp";
+import ImgVintage from "../../assets/hovered/m2-vintage.webp";
+
+import ImgCarved from "../../assets/hovered/m2-carved.webp";
+import ImgCarbon from "../../assets/hovered/m2-carbon.webp";
+import ImgClassic2 from "../../assets/hovered/m2-classic2.webp";
+import ImgDiamond2 from "../../assets/hovered/m2-diamond2.webp";
+import ImgTantalum from "../../assets/hovered/m2-tantalum.webp";
+
 
 const WeddingRings = () => {
     const items1 = [
-    { img: "/src/assets/hovered/m2-classic.webp", title: "Classic Rings" },
-    { img: "/src/assets/hovered/m2-diamond.webp", title: "Diamond Rings" },
-    { img: "/src/assets/hovered/m2-eternity.webp", title: "Eternity Rings" },
-    { img: "/src/assets/hovered/m2-texture.webp", title: "Textured Rings" },
-    { img: "/src/assets/hovered/m2-vintage.webp", title: "Vintage Rings" },
-  ];
+        { img: ImgClassic, title: "Classic Rings" },
+        { img: ImgDiamond, title: "Diamond Rings" },
+        { img: ImgEternity, title: "Eternity Rings" },
+        { img: ImgTexture, title: "Textured Rings" },
+        { img: ImgVintage, title: "Vintage Rings" },
+    ];
     const items2 = [
-    { img: "/src/assets/hovered/m2-carved.webp", title: "Carved Rings" },
-    { img: "/src/assets/hovered/m2-carbon.webp", title: "Carbon Fiber Rings" },
-    { img: "/src/assets/hovered/m2-classic2.webp", title: "Classic Rings" },
-    { img: "/src/assets/hovered/m2-diamond2.webp", title: "Diamond Rings" },
-    { img: "/src/assets/hovered/m2-tantalum.webp", title: "Tantalum Rings" },
-  ];
+        { img: ImgCarved, title: "Carved Rings" },
+        { img: ImgCarbon, title: "Carbon Fiber Rings" },
+        { img: ImgClassic2, title: "Classic Rings" },
+        { img: ImgDiamond2, title: "Diamond Rings" },
+        { img: ImgTantalum, title: "Tantalum Rings" },
+    ];
+
 
     return (
         <section className="px-[3%]">
@@ -60,7 +73,7 @@ const WeddingRings = () => {
                 </div>
             </div>
             <div>
-                <h2 className='lg:text-2xl text-xl uppercase mb-4'>Wedding Ring Guides</h2>
+                <h2 className='lg:text-2xl text-xl uppercase my-4'>Wedding Ring Guides</h2>
                 <div className="flex flex-wrap gap-x-8 gap-y-2">
                     <a href="#" className='atag'>How to Pick the Best Women's Wedding Ring?</a>
                     <a href="#" className='atag'>Which Men's Wedding Ring is Right for You?</a>

@@ -1,4 +1,7 @@
 import React from 'react'
+import ImgLuxuryWatches from "../assets/luxury-watches.webp";
+
+
 
 const LuxuryWatches = () => {
   const icons = [
@@ -18,7 +21,7 @@ const LuxuryWatches = () => {
   return (
     <section className='my-16'>
       <div className='relative w-full'>
-        <img src='src/assets/luxury-watches.webp' alt='stunning-collection-of-luxury-watches-in-Chicago' className='w-full h-auto'/>
+        <img src={ImgLuxuryWatches} alt='stunning-collection-of-luxury-watches-in-Chicago' className='w-full h-auto'/>
         <div className='lg:w-1/4 md:w-1/3 absolute flex flex-col items-center top-1/2 left-1/2 -translate-1/2 text-white text-center'>
             <h1 className='lg:text-3xl text-2xl uppercase'>Best Luxury Watches</h1>
             <span className='block my-6 lg:text-sm text-xs'>Explore our stunning collection of luxury watches, from timeless classics to modern masterpieces and limited editions.</span>

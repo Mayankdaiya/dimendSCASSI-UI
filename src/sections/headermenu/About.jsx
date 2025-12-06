@@ -1,13 +1,20 @@
 import React from 'react'
+import ImgDimendScassi from "../../assets/hovered/m8-dimendScassi.webp";
+import ImgStory from "../../assets/hovered/m8-story.webp";
+import ImgShowroom from "../../assets/hovered/m8-showroom.webp";
+import ImgBlogs from "../../assets/hovered/m8-blogs.webp";
+import ImgReviews from "../../assets/hovered/m8-reviews.webp";
+
 
 const About = () => {
     const items = [
-        { img: "/src/assets/hovered/m8-dimendScassi.webp", title: "WHY dimend SCASSI?" },
-        { img: "/src/assets/hovered/m8-story.webp", title: "OOR STORY" },
-        { img: "/src/assets/hovered/m8-showroom.webp", title: "OUR SHOWROOM" },
-        { img: "/src/assets/hovered/m8-blogs.webp", title: "BLOGS" },
-        { img: "/src/assets/hovered/m8-reviews.webp", title: "VIEW OUR REVIEWS" },
+        { img: ImgDimendScassi, title: "WHY dimend SCASSI?" },
+        { img: ImgStory, title: "OUR STORY" },
+        { img: ImgShowroom, title: "OUR SHOWROOM" },
+        { img: ImgBlogs, title: "BLOGS" },
+        { img: ImgReviews, title: "VIEW OUR REVIEWS" },
     ];
+
 
     return (
         <section className='mx-12 my-12'>

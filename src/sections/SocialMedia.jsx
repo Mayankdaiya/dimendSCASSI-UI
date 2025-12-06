@@ -1,5 +1,7 @@
 import React from 'react'
 import { useIsMobile } from '../hooks/useWindowSize'
+import ImgSocialFollow2 from "../assets/social-media-follow2.webp";
+import ImgSocialFollow1 from "../assets/social-media-follow.webp";
 
 const SocialMedia = () => {
   const isMobile = useIsMobile();
@@ -8,8 +10,8 @@ const SocialMedia = () => {
         <h1 className='text-4xl mb-4 uppercase'>Get Inspired</h1>
         <span className='md:text-sm text-lg'>Discover engagement moments of our clients.</span>
         {isMobile?
-        <img src='src/assets/social-media-follow2.webp' alt='discover our social media platform' className='mt-12 w-[80%] h-auto' />:
-        <img src="src/assets/social-media-follow.webp" alt="discover our social media platform" className='mt-4 w-60 h-auto'/>}
+        <img src={ImgSocialFollow2} alt='discover our social media platform' className='mt-12 w-[80%] h-auto' />:
+        <img src={ImgSocialFollow1} alt="discover our social media platform" className='mt-4 w-60 h-auto'/>}
     </div>
   )
 }

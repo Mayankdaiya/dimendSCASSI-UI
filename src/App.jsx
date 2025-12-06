@@ -1,5 +1,8 @@
 import './App.css'
 import React from 'react'
+import ImgSeeAllReviews from "./assets/see-all-reviews.webp";
+import ImgDiamondShapes from "./assets/diamond-shapes.webp";
+import ImgDiamondColors from "./assets/diam-colors.webp";
 import Header from './sections/Header'
 import Section1 from './sections/Section1'
 import CardCarousel from './components/CardCarousel'
@@ -25,23 +28,105 @@ import AppointmentMobile from './mobile/AppointmentMobile'
 import ImageOver from './mobile/ImageOver'
 import FooterMobile from './mobile/FooterMobile'
 
+// Image Imports
+// Explore cards
+import ImgExploreRings1 from "./assets/explore-rings1.webp";
+import ImgExploreRings2 from "./assets/explore-rings2.webp";
+import ImgExploreRings3 from "./assets/explore-rings3.webp";
+import ImgExploreRings4 from "./assets/explore-rings4.webp";
+import ImgExploreRings5 from "./assets/explore-rings5.webp";
+import ImgExploreRings6 from "./assets/explore-rings6.webp";
+
+// Occasion cards
+import ImgOccasionRings1 from "./assets/ocassion-rings1.webp";
+import ImgOccasionRings2 from "./assets/ocassion-rings2.webp";
+import ImgOccasionRings3 from "./assets/ocassion-rings3.webp";
+import ImgOccasionRings4 from "./assets/ocassion-rings4.webp";
+import ImgOccasionRings5 from "./assets/explore-rings5.webp"; // reused image
+
+// Material cards
+import ImgMaterialRings1 from "./assets/material-rings1.webp";
+import ImgMaterialRings2 from "./assets/material-rings2.webp";
+import ImgMaterialRings3 from "./assets/material-rings3.webp";
+import ImgMaterialRings4 from "./assets/material-rings4.webp";
+import ImgMaterialRings5 from "./assets/material-rings5.webp";
+import ImgMaterialRings6 from "./assets/material-rings6.webp";
+
+// Shop cards
+import ImgShopRings1 from "./assets/shop-rings1.webp";
+import ImgShopRings2 from "./assets/shop-rings2.webp";
+import ImgShopRings3 from "./assets/shop-rings3.webp";
+import ImgShopRings4 from "./assets/shop-rings4.webp";
+import ImgShopRings5 from "./assets/shop-rings5.webp";
+import ImgShopRings6 from "./assets/shop-rings6.webp";
+
+//social-platform
+import ImgOurReviews1 from "./assets/our-reviews1.webp";
+import ImgOurReviews2 from "./assets/our-reviews2.webp";
+import ImgOurReviews3 from "./assets/our-reviews3.webp";
+import ImgOurReviews4 from "./assets/our-reviews4.webp";
+import ImgOurReviews5 from "./assets/our-reviews5.webp";
+import ImgOurReviews6 from "./assets/our-reviews6.webp";
+
+// Image grid
+import ImgMsnap1 from "./assets/msnap1.webp";
+import ImgMsnap2 from "./assets/msnap2.webp";
+import ImgBestsellers1 from "./assets/bestsellers1.webp";
+import ImgBestsellers2 from "./assets/bestsellers2.webp";
+
+import ImgChicago1 from "./assets/chicago-best-jewelry1.webp";
+import ImgChicago2 from "./assets/chicago-best-jewelry2.webp";
+
+import ImgCarePlan1 from "./assets/care-plan1.webp";
+import ImgCarePlan2 from "./assets/care-plan2.webp";
+import ImgCarePlan3 from "./assets/care-plan3.webp";
+
+import ImgReviews1 from "./assets/reviews1.webp";
+import ImgReviews2 from "./assets/reviews2.webp";
+import ImgReviews3 from "./assets/reviews3.webp";
+
+
 function App() {
-  const explore_cards = [['/src/assets/explore-rings1.webp', 'Engagement Rings'],['/src/assets/explore-rings2.webp', 'Wedding Rings'],['/src/assets/explore-rings3.webp', 'Diamonds'],['/src/assets/explore-rings4.webp', 'Watches'],['/src/assets/explore-rings5.webp', 'Gem Stones'],['/src/assets/explore-rings6.webp', 'Fine Jewelry']];
-  const ocassion_cards = [['/src/assets/ocassion-rings1.webp', 'Gold Chains'],['/src/assets/ocassion-rings2.webp', 'EarRings'],['/src/assets/ocassion-rings3.webp', 'Bracelets'],['/src/assets/ocassion-rings4.webp', 'Necklaces & Pendants'],['/src/assets/explore-rings5.webp', 'Studs']];
-  const material_cards = [['/src/assets/material-rings1.webp', 'Yellow Gold'],['/src/assets/material-rings2.webp', 'White Gold'],['/src/assets/material-rings3.webp', 'Rose Gold'],['/src/assets/material-rings4.webp', 'Platinum'],['/src/assets/material-rings5.webp', 'Tantalum'],['/src/assets/material-rings6.webp', 'Carbon Fiber']];
-  const shop_cards = [
-    {path:'/src/assets/shop-rings1.webp', name:'Monroe Cathedral', price:2100, special_word:'recieve on may 17'},
-    {path:'/src/assets/shop-rings2.webp', name:'Hoop Earring', price:190, special_word:''},
-    {path:'/src/assets/shop-rings3.webp', name:'Tennis Necklace', price:16500, special_word:''},
-    {path:'/src/assets/shop-rings4.webp', name:'Joy Pave', price:1300, special_word:'recieve on may 17'},
-    {path:'/src/assets/shop-rings5.webp', name:'Tori Band', price:2100, special_word:''},
-    {path:'/src/assets/shop-rings6.webp', name:'Lady Luxe Ring', price:2800, special_word:''}
+  const explore_cards = [
+  [ImgExploreRings1, 'Engagement Rings'],
+  [ImgExploreRings2, 'Wedding Rings'],
+  [ImgExploreRings3, 'Diamonds'],
+  [ImgExploreRings4, 'Watches'],
+  [ImgExploreRings5, 'Gem Stones'],
+  [ImgExploreRings6, 'Fine Jewelry']
   ];
+
+const occasion_cards = [
+  [ImgOccasionRings1, 'Gold Chains'],
+  [ImgOccasionRings2, 'EarRings'],
+  [ImgOccasionRings3, 'Bracelets'],
+  [ImgOccasionRings4, 'Necklaces & Pendants'],
+  [ImgOccasionRings5, 'Studs']
+];
+
+const material_cards = [
+  [ImgMaterialRings1, 'Yellow Gold'],
+  [ImgMaterialRings2, 'White Gold'],
+  [ImgMaterialRings3, 'Rose Gold'],
+  [ImgMaterialRings4, 'Platinum'],
+  [ImgMaterialRings5, 'Tantalum'],
+  [ImgMaterialRings6, 'Carbon Fiber']
+];
+
+const shop_cards = [
+  {path: ImgShopRings1, name:'Monroe Cathedral', price:2100, special_word:'recieve on may 17'},
+  {path: ImgShopRings2, name:'Hoop Earring', price:190, special_word:''},
+  {path: ImgShopRings3, name:'Tennis Necklace', price:16500, special_word:''},
+  {path: ImgShopRings4, name:'Joy Pave', price:1300, special_word:'recieve on may 17'},
+  {path: ImgShopRings5, name:'Tori Band', price:2100, special_word:''},
+  {path: ImgShopRings6, name:'Lady Luxe Ring', price:2800, special_word:''}
+];
+
   
   const isMobile = useIsMobile();
   // social-platform
-  const social_cards = [['/src/assets/our-reviews1.webp', ''],['/src/assets/our-reviews2.webp', ''],['/src/assets/our-reviews3.webp', ''],['/src/assets/our-reviews4.webp', ''],['/src/assets/our-reviews5.webp', ''],['/src/assets/our-reviews6.webp', '']];
-  // diamond color
+  const social_cards = [[ImgOurReviews1, ''],[ImgOurReviews2, ''],[ImgOurReviews3, ''],[ImgOurReviews4, ''],[ImgOurReviews5, ''],[ImgOurReviews6, '']];// diamond color
+  // Icons
   const icons1 = [
     { x: 9, y: 8.8, label: "Marquise", href: "#" },
     { x: 36, y: 8.8, label: "Radiant", href: "#" },
@@ -107,7 +192,7 @@ function App() {
           </div>
         </div>
       </div>  
-      <img src="src/assets/see-all-reviews.webp" alt="See our Reviews" className='my-6 lg:w-50 w-40'/>
+      <img src={ImgSeeAllReviews} alt="See our Reviews" className='my-6 lg:w-50 w-40'/>
       <span className='lg:text-base md:text-sm text-lg'>Our jewelry brand stands as a testament to the trust of our customers, showcasing excellence.</span>
       <div className="md:hidden years-trust-icon lg:w-[120px] w-[90px]"></div>
       <div>
@@ -142,21 +227,21 @@ function App() {
       <Section1/>
       <CardCarouselComponent title="EXPLORE dimend SCASSI" cards={explore_cards}/>
       {isMobile?<ServiceItems/>:<Section2/>}
-      <CardCarouselComponent title="JEWELRY FOR ALL OCASSIONS" cards={ocassion_cards}/>
-      <DiamondCarouselComponent icons={icons1} title='Shop by diamond shape' imgpath='/src/assets/diamond-shapes.webp' size='670% 600%'/>
-      <ImageGrid myDiv={isMobile?contentm1:content1} des={'Lab Grown Diamond Engagement rings'} path={[`src/assets/${isMobile?'msnap1':'bestsellers1'}.webp`,`src/assets/${isMobile?'msnap2':'bestsellers2'}.webp`]}/>
+      <CardCarouselComponent title="JEWELRY FOR ALL OCASSIONS" cards={occasion_cards}/>
+      <DiamondCarouselComponent icons={icons1} title='Shop by diamond shape' imgpath={ImgDiamondShapes} size='670% 600%'/>
+      <ImageGrid myDiv={isMobile ? contentm1 : content1} des="Lab Grown Diamond Engagement rings" path={isMobile ? [ImgMsnap1, ImgMsnap2] : [ImgBestsellers1, ImgBestsellers2]}/>
       {isMobile?<CarouselMobile2 cards={shop_cards}/>:<CardCarousel2 cardInfo={shop_cards}/>}
       {isMobile?<RingDesignMobile />:<DesignRing/>}
       <CardCarouselComponent title="SHOP BY MATERIAL" cards={material_cards}/>
       {isMobile?<LuxuryWatches2/>:<LuxuryWatches/>}
-      <DiamondCarouselComponent icons={icons2} title='Shop by diamond color' imgpath='/src/assets/diam-colors.webp' size='128%'/>
-      {isMobile?<AppointmentMobile/>:(<Appointment/>,
-      <ImageGrid myDiv={content2} des={'chicago-best-jewelry-custom-design-for-engagement-rings'} path={['src/assets/chicago-best-jewelry1.webp','src/assets/chicago-best-jewelry2.webp']}/>)}
+      <DiamondCarouselComponent icons={icons2} title='Shop by diamond color' imgpath={ImgDiamondColors} size='128%'/>
+      {isMobile?<AppointmentMobile/>:<><Appointment/>
+      <ImageGrid myDiv={content2} des={'chicago-best-jewelry-custom-design-for-engagement-rings'} path={[ImgChicago1, ImgChicago2]}/></>}
       <SocialMedia/>
       <CardCarouselComponent title='' cards={social_cards} transX={-31}/>
-      {isMobile?<ImageOver pos={'top-[30%]'} path={'src/assets/care-plan3.webp'} des={"stunning-jewelry-gift-ideas-for-men-and-women"} myDiv={content3}/>:<ImageGrid myDiv={content3} des={'stunning-jewelry-gift-ideas-for-men-and-women'} path={['src/assets/care-plan1.webp','src/assets/care-plan2.webp']}/>}
+      {isMobile?<ImageOver pos={'top-[30%]'} path={ImgCarePlan3} des={"stunning-jewelry-gift-ideas-for-men-and-women"} myDiv={content3}/>:<ImageGrid myDiv={content3} des={'stunning-jewelry-gift-ideas-for-men-and-women'} path={[ImgCarePlan1,ImgCarePlan2]}/>}
       <Testimonials/>
-      {isMobile?<ImageOver pos={'bottom-[10%]'} path={'src/assets/reviews3.webp'} des={"chicago-best-jewelry-custom-design-for-engagement-rings"} myDiv={content4}/>:<ImageGrid myDiv={content4} des={'chicago-best-jewelry-custom-design-for-engagement-rings'} path={['src/assets/reviews1.webp','src/assets/reviews2.webp']}/>}
+      {isMobile?<ImageOver pos={'bottom-[10%]'} path={ImgReviews3} des={"chicago-best-jewelry-custom-design-for-engagement-rings"} myDiv={content4}/>:<ImageGrid myDiv={content4} des={'chicago-best-jewelry-custom-design-for-engagement-rings'} path={[ImgReviews1,ImgReviews2]}/>}
       {isMobile?<FooterMobile/>:<Footer/>}
     </>
   )

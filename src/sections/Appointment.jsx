@@ -1,5 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
+import ImgDiamondOrder from "../assets/diamond-order.webp";
+
 
 const Appointment = () => {
   const contents = [
@@ -25,7 +27,7 @@ const Appointment = () => {
 
   return (
     <section className='my-16 mx-4 lg:mx-12 p-2 flex justify-center items-center'>
-        <img src="/src/assets/diamond-order.webp" alt="luxurious-diamond-wedding-bands-collection" className='w-1/2 h-auto'/>
+        <img src={ImgDiamondOrder} alt="luxurious-diamond-wedding-bands-collection" className='w-1/2 h-auto'/>
         <div className={`w-1/2 flex justify-center relative overflow-hidden`}>
             <div className='w-1/2 min-w-64 transition-transform duration-500' 
              style={{

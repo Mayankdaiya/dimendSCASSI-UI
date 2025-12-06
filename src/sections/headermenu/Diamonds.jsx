@@ -1,20 +1,34 @@
 import React from 'react'
+import ImgRound from "../../assets/hovered/m3-round.webp";
+import ImgMarquise from "../../assets/hovered/m3-marquise.webp";
+import ImgRadiant from "../../assets/hovered/m3-radiant.webp";
+import ImgPear from "../../assets/hovered/m3-pear.webp";
+import ImgCushion from "../../assets/hovered/m3-cushion.webp";
+import ImgOval from "../../assets/hovered/m3-oval.webp";
+import ImgPrincess from "../../assets/hovered/m3-princess.webp";
+import ImgAsscher from "../../assets/hovered/m3-asscher.webp";
+import ImgEmerald from "../../assets/hovered/m3-emerald.webp";
+import ImgHeart from "../../assets/hovered/m3-heart.webp";
+import ImgOldMiner from "../../assets/hovered/m3-oldminer.webp";
+import ImgEuropean from "../../assets/hovered/m3-european.webp";
+
 
 const Diamonds = () => {
     const items = [
-        { img: "/src/assets/hovered/m3-round.webp", title: "Round" },
-        { img: "/src/assets/hovered/m3-marquise.webp", title: "Marquise" },
-        { img: "/src/assets/hovered/m3-radiant.webp", title: "Radiant" },
-        { img: "/src/assets/hovered/m3-pear.webp", title: "Pear" },
-        { img: "/src/assets/hovered/m3-cushion.webp", title: "Cushion" },
-        { img: "/src/assets/hovered/m3-oval.webp", title: "Oval" },
-        { img: "/src/assets/hovered/m3-princess.webp", title: "Princess" },
-        { img: "/src/assets/hovered/m3-asscher.webp", title: "Asscher" },
-        { img: "/src/assets/hovered/m3-emerald.webp", title: "Emerald" },
-        { img: "/src/assets/hovered/m3-heart.webp", title: "Heart" },
-        { img: "/src/assets/hovered/m3-oldminer.webp", title: "Old Miner" },
-        { img: "/src/assets/hovered/m3-european.webp", title: "European" },
+        { img: ImgRound, title: "Round" },
+        { img: ImgMarquise, title: "Marquise" },
+        { img: ImgRadiant, title: "Radiant" },
+        { img: ImgPear, title: "Pear" },
+        { img: ImgCushion, title: "Cushion" },
+        { img: ImgOval, title: "Oval" },
+        { img: ImgPrincess, title: "Princess" },
+        { img: ImgAsscher, title: "Asscher" },
+        { img: ImgEmerald, title: "Emerald" },
+        { img: ImgHeart, title: "Heart" },
+        { img: ImgOldMiner, title: "Old Miner" },
+        { img: ImgEuropean, title: "European" },
     ];
+
 
     return (
         <section className="px-[3%] flex">

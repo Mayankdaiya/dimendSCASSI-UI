@@ -1,6 +1,7 @@
 import React from 'react'
 import { useEffect, useState } from 'react'
 import './header.css'
+import ImgDimendScassi from "../assets/dimendSCASSI.webp";
 import Topbar from '../components/Topbar'
 import EngagementRings from './headermenu/EngagementRings'
 import WeddingRings from './headermenu/WeddingRings'
@@ -69,7 +70,7 @@ const Header = () => {
                         <div className="header-sprite loc-h"></div>
                         <span className='ms-2'>STORE</span>
                     </div>
-                    <img src='/src/assets/dimendSCASSI.webp' className='dimend-logo'></img>
+                    <img src={ImgDimendScassi} className='dimend-logo'/>
                     <div className='flex gap-3'>
                         <div className="header-sprite prof-h"></div>
                         <span className='me-2'>JOHN DOE</span>

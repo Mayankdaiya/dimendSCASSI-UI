@@ -74,8 +74,8 @@
 
 /* mobile-view */
 .hamburger {
-  width: 25px;
-  height: 20px;
+  width: 1.8rem;
+  height: 1.4rem;
   border-top: 3px solid var(--color-black);     /* top line */
   border-bottom: 3px solid var(--color-black);  /* bottom line */
   position: relative;
@@ -91,4 +91,16 @@
   height: 2px;
   background: var(--color-black);
   transform: translateY(-50%);  /* center perfectly */
+}
+
+.mobile-menu > li {
+    font-size: x-large;
+    font-family: "Arapey", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    cursor: pointer;
+}
+
+.content-below {
+    margin-top: 10px;
 }

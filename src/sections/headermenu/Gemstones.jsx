@@ -1,4 +1,20 @@
 import React from 'react'
+import ImgRound from "../../assets/hovered/m3-round.webp";
+import ImgMarquise from "../../assets/hovered/m3-marquise.webp";
+import ImgRadiant from "../../assets/hovered/m3-radiant.webp";
+import ImgPear from "../../assets/hovered/m3-pear.webp";
+import ImgCushion from "../../assets/hovered/m3-cushion.webp";
+import ImgPrincess from "../../assets/hovered/m3-princess.webp";
+import ImgAsscher from "../../assets/hovered/m3-asscher.webp";
+import ImgEmerald from "../../assets/hovered/m3-emerald.webp";
+import ImgOval from "../../assets/hovered/m3-oval.webp";
+import ImgHeart from "../../assets/hovered/m3-heart.webp";
+// colored diamonds import
+import ImgPurplediamond from "../../assets/hovered/m4-purplediamond.webp";
+import ImgReddiamond from "../../assets/hovered/m4-reddiamond.webp";
+import ImgGreendiamond from "../../assets/hovered/m4-greendiamond.webp";
+import ImgBluediamond from "../../assets/hovered/m4-bluediamond.webp";
+
 
 const Gemstones = () => {
     const colors = [
@@ -14,17 +30,18 @@ const Gemstones = () => {
         { name: "Brown", code: "brown" }
     ];
     const items = [
-        { img: "/src/assets/hovered/m3-round.webp", title: "Round" },
-        { img: "/src/assets/hovered/m3-marquise.webp", title: "Marquise" },
-        { img: "/src/assets/hovered/m3-radiant.webp", title: "Radiant" },
-        { img: "/src/assets/hovered/m3-pear.webp", title: "Pear" },
-        { img: "/src/assets/hovered/m3-cushion.webp", title: "Cushion" },
-        { img: "/src/assets/hovered/m3-princess.webp", title: "Princess" },
-        { img: "/src/assets/hovered/m3-asscher.webp", title: "Asscher" },
-        { img: "/src/assets/hovered/m3-emerald.webp", title: "Emerald" },
-        { img: "/src/assets/hovered/m3-oval.webp", title: "Oval" },
-        { img: "/src/assets/hovered/m3-heart.webp", title: "Heart" },
+        { img: ImgRound, title: "Round" },
+        { img: ImgMarquise, title: "Marquise" },
+        { img: ImgRadiant, title: "Radiant" },
+        { img: ImgPear, title: "Pear" },
+        { img: ImgCushion, title: "Cushion" },
+        { img: ImgPrincess, title: "Princess" },
+        { img: ImgAsscher, title: "Asscher" },
+        { img: ImgEmerald, title: "Emerald" },
+        { img: ImgOval, title: "Oval" },
+        { img: ImgHeart, title: "Heart" },
     ];
+
 
     return (
         <section className="px-[3%]">
@@ -36,10 +53,10 @@ const Gemstones = () => {
                     </div>
                     <h2 className='lg:text-xl text-lg font-bold uppercase my-4'>Shop by Gemstone</h2>
                     <div>
-                        <a href='#' className='flex items-center'><img src="/src/assets/hovered/m4-bluediamond.webp" alt="Sapphire" className='color-diamond' /><span>Sapphire</span></a>
-                        <a href='#' className='flex items-center'><img src="/src/assets/hovered/m4-greendiamond.webp" alt="Emerald" className='color-diamond' /><span>Emerald</span></a>
-                        <a href='#' className='flex items-center'><img src="/src/assets/hovered/m4-reddiamond.webp" alt="Ruby" className='color-diamond' /><span>Ruby</span></a>
-                        <a href='#' className='flex items-center'><img src="/src/assets/hovered/m4-purplediamond.webp" alt="Marganite" className='color-diamond' /><span>Marganite</span></a>
+                        <a href='#' className='flex items-center'><img src={ImgBluediamond} alt="Sapphire" className='color-diamond' /><span>Sapphire</span></a>
+                        <a href='#' className='flex items-center'><img src={ImgGreendiamond} alt="Emerald" className='color-diamond' /><span>Emerald</span></a>
+                        <a href='#' className='flex items-center'><img src={ImgReddiamond} alt="Ruby" className='color-diamond' /><span>Ruby</span></a>
+                        <a href='#' className='flex items-center'><img src={ImgPurplediamond} alt="Marganite" className='color-diamond' /><span>Marganite</span></a>
                     </div>
                 </div>
                 <div className='px-12'>

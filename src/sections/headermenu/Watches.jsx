@@ -1,13 +1,20 @@
 import React from 'react'
+import ImgLogos from "../../assets/hovered/m7-logos.webp";
+import ImgWatch1 from "../../assets/hovered/m7-watch1.webp";
+import ImgWatch2 from "../../assets/hovered/m7-watch2.webp";
+import ImgWatch3 from "../../assets/hovered/m7-watch3.webp";
+import ImgWatch4 from "../../assets/hovered/m7-watch4.webp";
+
 
 const Watches = () => {
     const items = [
-        { img: "/src/assets/hovered/m7-logos.webp", title: "Watches-brands-logos" },
-        { img: "/src/assets/hovered/m7-watch1.webp", title: "Audemars Piguet" },
-        { img: "/src/assets/hovered/m7-watch2.webp", title: "Patek Philippe" },
-        { img: "/src/assets/hovered/m7-watch3.webp", title: "Richard Mille" },
-        { img: "/src/assets/hovered/m7-watch4.webp", title: "Rolex" },
+        { img: ImgLogos, title: "Watches-brands-logos" },
+        { img: ImgWatch1, title: "Audemars Piguet" },
+        { img: ImgWatch2, title: "Patek Philippe" },
+        { img: ImgWatch3, title: "Richard Mille" },
+        { img: ImgWatch4, title: "Rolex" },
     ];
+
 
     return (
         <section className='mx-12 my-12'>

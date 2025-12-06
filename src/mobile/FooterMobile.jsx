@@ -1,5 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
+import ImgArrowDownGray from "../assets/arrow-down-gray.webp";
+
 
 const FooterMobile = () => {
     const [openIndex, setOpenIndex] = useState(null);
@@ -26,7 +28,7 @@ const FooterMobile = () => {
                             onClick={() => setOpenIndex(openIndex === index ? null : index)}
                         >
                             <span className="block text-xl font-bold text-[#3E3E3E]">{item.title}</span>
-                            <span className={`down-btn-icon ${openIndex === index ? "rotate-180" : "rotate-0"}`} style={{backgroundImage:'url(/src/assets/arrow-down-gray.webp)'}}></span>
+                            <span className={`down-btn-icon ${openIndex === index ? "rotate-180" : "rotate-0"}`} style={{backgroundImage:`url(${ImgArrowDownGray})`}}></span>
                         </button>
 
                         {/* Content with smooth transition */}
@@ -58,7 +60,7 @@ const FooterMobile = () => {
                             {/* Button label when closed */}
                             <div onClick={toggle} className='h-12 flex gap-3 items-center justify-center cursor-pointer px-4'>
                                 <span className="text-[#3E3E3E] text-xl text-nowrap">Partners & Associations</span>
-                                <span className={`down-btn-icon ${open ? "rotate-180" : "rotate-0"}`} style={{backgroundImage:'url(/src/assets/arrow-down-gray.webp)'}}></span>
+                                <span className={`down-btn-icon ${open ? "rotate-180" : "rotate-0"}`} style={{backgroundImage:`url(${ImgArrowDownGray})`}}></span>
                             </div>
 
                             {/* Inner content (fade in only after expansion) */}
