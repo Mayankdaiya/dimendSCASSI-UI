@@ -27,7 +27,7 @@ const About = () => {
                 ))}
             </div>
             <div className="flex mt-12 items-center gap-8">
-                <button className='btn-style3 btn4 uppercase h-fit' style={{ width: 'fit-content' }}>Book an Appointment</button>
+                <button className='btn-style3 btn4 uppercase h-fit' style={{ width: 'fit-content' }} aria-label='book appointment'>Book an Appointment</button>
                 <div>
                     <h2 className='lg:text-xl text-lg font-bold uppercase my-4'>BEST BRIDAL JEWELRY STORE IN CHICAGO</h2>
                     <div className="flex flex-wrap gap-x-8 gap-y-2">

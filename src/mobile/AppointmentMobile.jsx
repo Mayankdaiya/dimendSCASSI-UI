@@ -22,7 +22,7 @@ const AppointmentMobile = () => {
                     {items.map((item, index) => (
                         <div key={index} className="mx-4 mt-4">
                             <button
-                                className="flex justify-between items-center w-full cursor-pointer"
+                                className="flex justify-between items-center w-full cursor-pointer" aria-label={item.title}
                                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
                             >
                                 <h2 className="text-2xl uppercase text-white">{item.title}</h2>
@@ -33,7 +33,7 @@ const AppointmentMobile = () => {
                             <div className={`overflow-hidden transition-all duration-300`}
                                 style={{maxHeight: openIndex === index ? "200px" : "0px",}}>
                                 <div className="my-4 text-white">{item.content}</div>
-                                <a className="block mb-4 text-white underline" href='#' target='_blank'>{item.connect}</a>
+                                <a className="block mb-4 text-white underline" href='https://www.dimendscaasi.com/my-account/' target='_blank'>{item.connect}</a>
                             </div>
                             {index != 2 && (<div className="mt-2 mb-3 w-auto border border-[rgba(255,255,255,.1)]"></div>)}
                         </div>
@@ -46,7 +46,7 @@ const AppointmentMobile = () => {
                 <div className='w-full absolute top-1/2 -translate-y-full flex flex-col items-center text-center gap-5 px-[4%]'>
                     <h1 className='uppercase text-3xl'>Handmade in chicago</h1>
                     <span className='block'>We look forward to meeting you and catering to your Jewelry needs. Need to design your own? Whether lab grown diamond or other exquisite gemstone, let us help bring your personal idea to life!</span>
-                    <button className='btn-style1 btn1 w-90 font-bold'>Book an in-store Appointment</button>
+                    <button className='btn-style1 btn1 w-90 font-bold' aria-label='book appointment'>Book an in-store Appointment</button>
                     <a className='flex gap-2 items-center font-bold text-[#4D152D] underline' href='https://www.google.com/maps/dir//5+S+Wabash+Ave+STE+1734,+Chicago,+IL+60603,+United+States/@41.8818456,-87.7082074,12z/data=!4m8!4m7!1m0!1m5!1m1!1s0x880e2ca4591f84df:0x955d6454e16f3168!2m2!1d-87.6258066!2d41.8818751?entry=ttu&g_ep=EgoyMDI0MDkxMS4wIKXMDSoASAFQAw%3D%3D' target='_blank'>Directions<span className='direction-icon'></span></a>
                 </div>
             </div>

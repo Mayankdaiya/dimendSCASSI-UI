@@ -35,9 +35,9 @@ const WeddingRings = () => {
         <section className="px-[3%]">
             <div className='flex gap-8'>
                 <div className='w-[25%] flex flex-col gap-4 mt-8'>
-                    <button className='btn-style3 btn4 uppercase'>Wedding Rings For Women</button>
-                    <button className='btn-style3 btn4 uppercase'>Wedding Rings For Men</button>
-                    <button className='btn-style3 btn5 uppercase'>Shop All Wedding Rings</button>
+                    <button className='btn-style3 btn4 uppercase' aria-label='wedding rings'>Wedding Rings For Women</button>
+                    <button className='btn-style3 btn4 uppercase' aria-label='wedding rings'>Wedding Rings For Men</button>
+                    <button className='btn-style3 btn5 uppercase' aria-label='wedding rings'>Shop All Wedding Rings</button>
                     <div className='flex flex-col gap-2 mt-4'>
                         <span className='mb-5 font-bold uppercase'>Shop By Metal</span>
                         <a href='#' className='flex items-center'><span className='round-color'></span><span>White Gold</span></a>

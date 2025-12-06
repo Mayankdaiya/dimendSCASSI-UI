@@ -42,8 +42,8 @@ const CardCarousel = (props) => {
             }}
           />
         </div>
-        <button onClick={prev} disabled={index === 0} className="icon-backward"></button>
-        <button onClick={next} disabled={index === 1} className="icon-forward"></button>
+        <button onClick={prev} disabled={index === 0} className="icon-backward" aria-label="previous"></button>
+        <button onClick={next} disabled={index === 1} className="icon-forward" aria-label="next"></button>
       </div>
 
 

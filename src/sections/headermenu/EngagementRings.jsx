@@ -35,13 +35,13 @@ const EngagementRings = () => {
     <section className="flex gap-8 px-[3%]">
       <div className='w-[25%] flex flex-col gap-8 mt-8'>
         <div>
-          <button className='btn-style3 btn4 uppercase'>Design Your Own Ring</button>
-          <button className='btn-style3 btn5'>Start with A Setting</button>
+          <button className='btn-style3 btn4 uppercase' aria-label='design'>Design Your Own Ring</button>
+          <button className='btn-style3 btn5' aria-label='start setting'>Start with A Setting</button>
         </div>
         <span>Ready to Ship Engagement Rings</span>
         <div>
-          <button className='btn-style3 btn4 uppercase'>Preset Engagement Rings</button>
-          <button className='btn-style3 btn5'>10-Day Delivery</button>
+          <button className='btn-style3 btn4 uppercase' aria-label='preset rings'>Preset Engagement Rings</button>
+          <button className='btn-style3 btn5' aria-label='10-day delievery'>10-Day Delivery</button>
         </div>
         <div className='flex flex-col gap-2'>
           <span className='mb-5 font-bold uppercase'>Shop By Metal</span>

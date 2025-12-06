@@ -48,8 +48,8 @@ const Gemstones = () => {
             <div className="flex justify-around">
                 <div className='mt-12'>
                     <div>
-                        <button className='btn-style3 btn4 uppercase'>Design your own Ring</button>
-                        <button className='btn-style3 btn5'>Start With A Gemstone</button>
+                        <button className='btn-style3 btn4 uppercase' aria-label='design'>Design your own Ring</button>
+                        <button className='btn-style3 btn5' aria-label='start gemstone'>Start With A Gemstone</button>
                     </div>
                     <h2 className='lg:text-xl text-lg font-bold uppercase my-4'>Shop by Gemstone</h2>
                     <div>

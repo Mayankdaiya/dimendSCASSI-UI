@@ -36,13 +36,13 @@ const Diamonds = () => {
                 <div className='flex'>
                     <div className='w-[30%] flex flex-col gap-4'>
                         <h2 className='lg:text-xl text-lg bold uppercase my-4'>Design Your own Ring</h2>
-                        <button className='btn-style3 btn4 uppercase'>Start with a mined Diamond</button>
-                        <button className='btn-style3 btn4 uppercase'>Start with a Lab Diamond</button>
-                        <button className='btn-style3 btn5 uppercase'>Start with a color diamond</button>
+                        <button className='btn-style3 btn4 uppercase' aria-label='start with a diamond'>Start with a mined Diamond</button>
+                        <button className='btn-style3 btn4 uppercase' aria-label='start with a diamond'>Start with a Lab Diamond</button>
+                        <button className='btn-style3 btn5 uppercase' aria-label='start with a diamond'>Start with a color diamond</button>
                         <span className='my-4'>Ready to Ship Engagement Rings</span>
                         <div>
-                            <button className='btn-style3 btn4 uppercase'>Preset Engagement Rings</button>
-                            <button className='btn-style3 btn5 uppercase'>10-Day Delievery</button>
+                            <button className='btn-style3 btn4 uppercase' aria-label='preset engagement'>Preset Engagement Rings</button>
+                            <button className='btn-style3 btn5 uppercase' aria-label='10 day delievery'>10-Day Delievery</button>
                         </div>
                     </div>
                     <div className='px-8'>

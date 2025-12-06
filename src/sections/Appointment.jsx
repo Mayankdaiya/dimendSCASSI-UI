@@ -39,8 +39,8 @@ const Appointment = () => {
                 <span className='block my-[3%] lg:text-lg text-sm'>{contents[index][2]}</span>
                 <a className='block text-sm font-bold underline text-[rgb(77,21,45)]' href='https://www.dimendscaasi.com/schedule-appointment/' target='_blank'>{contents[index][1]}</a>
                 <div className='mt-[6%] flex gap-2'>
-                    <button onClick={back} className="icon-backward"></button>
-                    <button onClick={next} className="icon-forward"></button>
+                    <button onClick={back} className="icon-backward" aria-label='icon-backward'></button>
+                    <button onClick={next} className="icon-forward" aria-label='icon-forward'></button>
                 </div>
             </div>
         </div>

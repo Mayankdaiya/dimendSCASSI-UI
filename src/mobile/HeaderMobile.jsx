@@ -40,12 +40,12 @@ const HeaderMobile = () => {
                             <li>Gifts</li>
                             <li>Watches</li>
                             <li>About</li>
-                            <li className='w-[50%]'><button className='btn-style2 btn2 text-xl'>Book An Appointment</button></li>
+                            <li className='w-[50%]'><button className='btn-style2 btn2 text-xl' aria-label='book appointment'>Book An Appointment</button></li>
                         </ul>
                     </div>
                     <div className="header-sprite search-h cursor-pointer" style={{ width: '1.8rem', height: '1.8rem' }}></div>
                 </div>
-                <img src={ImgDimendScassi} className='dimend-logo'></img>
+                <img src={ImgDimendScassi} className='dimend-logo' alt='dimendScassi-logo' />
                 <div className='flex gap-5'>
                     <div className="header-sprite loc-h cursor-pointer" style={{ width: '1.8rem', height: '1.8rem' }}></div>
                     <div className="header-sprite cart-h cursor-pointer" style={{ width: '1.8rem', height: '1.8rem' }}></div>

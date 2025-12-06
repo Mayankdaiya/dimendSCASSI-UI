@@ -24,7 +24,7 @@ const FooterMobile = () => {
                 {items.map((item, index) => (
                     <div key={index} className="mx-4">
                         <button
-                            className="flex justify-between items-center w-full cursor-pointer"
+                            className="flex justify-between items-center w-full cursor-pointer" aria-label={item.title}
                             onClick={() => setOpenIndex(openIndex === index ? null : index)}
                         >
                             <span className="block text-xl font-bold text-[#3E3E3E]">{item.title}</span>

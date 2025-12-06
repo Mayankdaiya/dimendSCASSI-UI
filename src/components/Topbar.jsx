@@ -9,7 +9,7 @@ const Topbar = () => {
             <div className="google-yelp-sprite rating"></div>
             <span>1200+ Reviews</span>
         </a>
-        <span>Our Biggest Sale of the year.&nbsp;<a href="#" className='underline'>Sign up</a>&nbsp;for details.</span>
+        <span>Our Biggest Sale of the year.&nbsp;<a href="https://www.dimendscaasi.com/my-account/" className='underline' target='_blank'>Sign up</a>&nbsp;for details.</span>
         <a href='https://www.instagram.com/dimendscaasi/' target='_blank' className='md:flex items-center hidden'>
             <div className='header-sprite insta-h'></div>
             <span>11,300+ Followers</span>

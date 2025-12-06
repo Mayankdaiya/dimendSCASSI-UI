@@ -15,7 +15,7 @@ export default function ServiceItems() {
       {items.map((item, index) => (
         <div key={index} className="mx-4">
           <button
-            className="flex justify-between items-center w-full cursor-pointer"
+            className="flex justify-between items-center w-full cursor-pointer" aria-label={item.title}
             onClick={() => setOpenIndex(openIndex === index ? null : index)}
           >
             <h2 className="text-2xl">{item.title}</h2>

@@ -70,7 +70,7 @@ const Header = () => {
                         <div className="header-sprite loc-h"></div>
                         <span className='ms-2'>STORE</span>
                     </div>
-                    <img src={ImgDimendScassi} className='dimend-logo'/>
+                    <img src={ImgDimendScassi} className='dimend-logo' alt='dimend-scassi-logo'/>
                     <div className='flex gap-3'>
                         <div className="header-sprite prof-h"></div>
                         <span className='me-2'>JOHN DOE</span>

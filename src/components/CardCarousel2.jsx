@@ -43,8 +43,8 @@ const CardCarousel2 = (props) => {
                         }}
                     />
                 </div>
-                <button onClick={prev} disabled={index === 0} className="icon-backward"></button>
-                <button onClick={next} disabled={index === 1} className="icon-forward"></button>
+                <button onClick={prev} disabled={index === 0} className="icon-backward" aria-label='backward'></button>
+                <button onClick={next} disabled={index === 1} className="icon-forward" aria-label='forward'></button>
             </div>
 
             <div className="relative flex items-center">

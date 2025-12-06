@@ -26,7 +26,7 @@ const LuxuryWatches = () => {
         <div className='lg:w-1/4 md:w-1/3 absolute flex flex-col items-center top-1/2 left-1/2 -translate-1/2 text-white text-center'>
             <h1 className='lg:text-3xl text-2xl uppercase'>Best Luxury Watches</h1>
             <span className='block my-6 lg:text-sm text-xs'>Explore our stunning collection of luxury watches, from timeless classics to modern masterpieces and limited editions.</span>
-            <div className='w-1/2'><button className='btn-style2 uppercase text-black lg:text-sm text-xs'>Shop Watches</button></div>
+            <div className='w-1/2'><button className='btn-style2 uppercase text-black lg:text-sm text-xs' aria-label='shop watches'>Shop Watches</button></div>
         </div>
       </div>
       <div className='bg-[#121212] flex flex-wrap justify-center gap-4 px-4 py-8'>

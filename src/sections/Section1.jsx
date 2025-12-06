@@ -8,8 +8,8 @@ const Section1 = () => {
         <div className='p-4 md:absolute top-[40%] lg:left-[10%] left-[1%] flex flex-col md:items-start items-center md:w-auto w-full md:mt-0 mt-8'>
             <span>UP TO 40% OFF JEWELRY, 25% OFF RING SETTINGS</span>
             <h1 className='mt-2 mb-6 text-4xl'>DISCOVER YOUR SPARKLE</h1>
-            <button className='mt-2 btn-style1 btn1 md:text-xs text-base'>SHOP ENGAGEMENT RINGS</button>
-            <button className='mt-2 btn-style1 btn2 md:text-xs text-base'>SHOP JEWELRY</button>
+            <button className='mt-2 btn-style1 btn1 md:text-xs text-base' aria-label='shop engagement rings'>SHOP ENGAGEMENT RINGS</button>
+            <button className='mt-2 btn-style1 btn2 md:text-xs text-base' aria-label='shop jewelry'>SHOP JEWELRY</button>
         </div>
     </section>
   )

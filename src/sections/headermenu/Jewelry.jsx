@@ -53,7 +53,7 @@ const Jewelry = () => {
                 </div>
             </div>
             <div className="flex mt-8 items-center gap-8">
-                <button className='btn-style3 btn4 uppercase h-fit' style={{width:'fit-content'}}>Shop All fine Jewelry</button>
+                <button className='btn-style3 btn4 uppercase h-fit' aria-label='shop fine jewelry' style={{width:'fit-content'}}>Shop All fine Jewelry</button>
                 <div>
                     <h2 className='lg:text-xl text-lg font-bold uppercase my-4'>Jewelry Guides</h2>
                     <div className="flex flex-wrap gap-x-8 gap-y-2">

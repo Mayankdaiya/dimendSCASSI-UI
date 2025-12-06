@@ -36,7 +36,7 @@ const Footer = () => {
 
                             <div className="mt-4 grid grid-rows-8 grid-flow-col gap-2">
                                 {item.links.map((link, i) => (
-                                    <a key={i} href="#" className="block text-xs text-nowrap" style={{ color: 'gray', textDecoration: 'none' }}>
+                                    <a key={i} href="#" className="block text-xs text-nowrap" style={{ color: '#3E3E3E', textDecoration: 'none' }}>
                                         {link}
                                     </a>
                                 ))}
