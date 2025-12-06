@@ -11,6 +11,8 @@ import ImgClassic2 from "../../assets/hovered/m2-classic2.webp";
 import ImgDiamond2 from "../../assets/hovered/m2-diamond2.webp";
 import ImgTantalum from "../../assets/hovered/m2-tantalum.webp";
 
+import ImgAnniversaryRing from "../../assets/hovered/m2-anniversary.webp";
+
 
 const WeddingRings = () => {
     const items1 = [
@@ -67,7 +69,7 @@ const WeddingRings = () => {
                 <div>
                     <h2 className='lg:text-2xl text-xl uppercase my-4'>Celebrate Togetherness</h2>
                     <div className='relative'>
-                        <img src="/src/assets/hovered/m2-anniversary.webp" alt="anniversary-rings"  className='w-full h-auto'/>
+                        <img src={ImgAnniversaryRing} alt="anniversary-rings"  className='w-full h-auto'/>
                         <span className='absolute left-[50%] bottom-[5%] -translate-x-1/2 uppercase text-nowrap text-white'>Anniversary Rings</span>
                     </div>
                 </div>

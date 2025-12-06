@@ -1,5 +1,6 @@
 import React from 'react'
 import ImgLuxuryWatches from "../assets/luxury-watches.webp";
+import ImgWatchBrandLogos from "../assets/watch-brand-logos.webp";
 
 
 
@@ -16,7 +17,7 @@ const LuxuryWatches = () => {
     {x: 97, y: 69 },
     {x: 6, y: 95 },
   ];
-  const spriteUrl = 'src/assets/watch-brand-logos.webp';
+  const spriteUrl = ImgWatchBrandLogos;
 
   return (
     <section className='my-16'>

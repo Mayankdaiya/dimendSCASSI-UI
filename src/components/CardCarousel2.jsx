@@ -8,9 +8,7 @@ const CardCarousel2 = (props) => {
     function formatWithCommas(number) {
         return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
     }
-    function getHoveredPath(path) {
-        return path.replace(/(\d)/, 'h$1');
-    }
+
     const [transX, setTransX] = useState(0);
     useEffect(() => {
       const handleResize = () => {
@@ -61,8 +59,8 @@ const CardCarousel2 = (props) => {
                         {props.cardInfo.map((item, idx) => (
                             <div key={idx} className='lg:min-w-[22%] md:min-w-[28%]'>
                                 <div className="relative bg-blue-100 flex justify-center text-xl group">
-                                    <img src={item.path} alt={item.name} className="w-full h-auto transition-opacity duration-500 group-hover:opacity-0" />
-                                    <img src={getHoveredPath(item.path)} alt={item.name} className="w-full h-auto absolute top-0 left-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
+                                    <img src={item.path1} alt={item.name} className="w-full h-auto transition-opacity duration-500 group-hover:opacity-0" />
+                                    <img src={item.path2} alt={item.name} className="w-full h-auto absolute top-0 left-0 opacity-0 transition-opacity duration-500 group-hover:opacity-100" />
                                     {item.special_word && (
                                         <div className='absolute top-[2%] left-[3%] flex items-center'>
                                             <div className="arrow-icons w-8" style={{backgroundPosition:'95% 71%'}}/>

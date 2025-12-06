@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 import '../components/spriteIcons.css'
 import ImageGrid from './ImageGrid';
+import ImgDesignRing1 from "../assets/design-ring1.webp";
+import ImgDesignRing2 from "../assets/design-ring2.webp";
+
 
 const DesignRing = () => {
     const [show, setShow] = useState(false);
@@ -22,7 +25,7 @@ const DesignRing = () => {
     );
     return (
         <div>
-            <ImageGrid myDiv={content} des={'design in chicago'} path={['src/assets/design-ring1.webp', 'src/assets/design-ring2.webp']} />
+            <ImageGrid myDiv={content} des={'design in chicago'} path={[ImgDesignRing1, ImgDesignRing2]} />
         </div>
     )
 }

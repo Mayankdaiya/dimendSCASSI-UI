@@ -59,6 +59,12 @@ import ImgShopRings3 from "./assets/shop-rings3.webp";
 import ImgShopRings4 from "./assets/shop-rings4.webp";
 import ImgShopRings5 from "./assets/shop-rings5.webp";
 import ImgShopRings6 from "./assets/shop-rings6.webp";
+import ImgShopRings7 from "./assets/shop-ringsh1.webp";
+import ImgShopRings8 from "./assets/shop-ringsh2.webp";
+import ImgShopRings9 from "./assets/shop-ringsh3.webp";
+import ImgShopRings10 from "./assets/shop-ringsh4.webp";
+import ImgShopRings11 from "./assets/shop-ringsh5.webp";
+import ImgShopRings12 from "./assets/shop-ringsh6.webp";
 
 //social-platform
 import ImgOurReviews1 from "./assets/our-reviews1.webp";
@@ -114,12 +120,12 @@ const material_cards = [
 ];
 
 const shop_cards = [
-  {path: ImgShopRings1, name:'Monroe Cathedral', price:2100, special_word:'recieve on may 17'},
-  {path: ImgShopRings2, name:'Hoop Earring', price:190, special_word:''},
-  {path: ImgShopRings3, name:'Tennis Necklace', price:16500, special_word:''},
-  {path: ImgShopRings4, name:'Joy Pave', price:1300, special_word:'recieve on may 17'},
-  {path: ImgShopRings5, name:'Tori Band', price:2100, special_word:''},
-  {path: ImgShopRings6, name:'Lady Luxe Ring', price:2800, special_word:''}
+  {path1: ImgShopRings1, path2: ImgShopRings7, name:'Monroe Cathedral', price:2100, special_word:'recieve on may 17'},
+  {path1: ImgShopRings2, path2: ImgShopRings8, name:'Hoop Earring', price:190, special_word:''},
+  {path1: ImgShopRings3, path2: ImgShopRings9, name:'Tennis Necklace', price:16500, special_word:''},
+  {path1: ImgShopRings4, path2: ImgShopRings10, name:'Joy Pave', price:1300, special_word:'recieve on may 17'},
+  {path1: ImgShopRings5, path2: ImgShopRings11, name:'Tori Band', price:2100, special_word:''},
+  {path1: ImgShopRings6, path2: ImgShopRings12, name:'Lady Luxe Ring', price:2800, special_word:''}
 ];
 
   
