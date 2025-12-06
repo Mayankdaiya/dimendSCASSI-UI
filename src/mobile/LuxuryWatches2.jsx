@@ -1,5 +1,6 @@
 import React from 'react'
 import ImgLuxuryWatches21 from "../assets/luxury-watches21.webp";
+import ImgWatchBrandLogos from "../assets/watch-brand-logos.webp";
 
 const LuxuryWatches2 = () => {
     const rowPattern = [3, 4, 3];
@@ -15,7 +16,6 @@ const LuxuryWatches2 = () => {
         { x: 97, y: 69 },
         { x: 6, y: 95 },
     ];
-    const spriteUrl = 'src/assets/watch-brand-logos.webp';
 
     return (
         <section className='mt-20'>
@@ -41,7 +41,7 @@ const LuxuryWatches2 = () => {
                                         key={start + idx}
                                         className="w-32 h-14 bg-no-repeat"
                                         style={{
-                                            backgroundImage: `url(${spriteUrl})`,
+                                            backgroundImage: `url(${ImgWatchBrandLogos})`,
                                             backgroundPosition: `${icon.x}% ${icon.y}%`,
                                             backgroundSize: '380% auto'
                                         }}

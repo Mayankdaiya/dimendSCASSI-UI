@@ -120,12 +120,12 @@ function App() {
   ];
 
   const shop_cards = [
-    { path1: ImgShopRings1, path2: ImgShopRings7, name: 'Monroe Cathedral', price: 2100, special_word: 'recieve on may 17' },
-    { path1: ImgShopRings2, path2: ImgShopRings8, name: 'Hoop Earring', price: 190, special_word: '' },
-    { path1: ImgShopRings3, path2: ImgShopRings9, name: 'Tennis Necklace', price: 16500, special_word: '' },
-    { path1: ImgShopRings4, path2: ImgShopRings10, name: 'Joy Pave', price: 1300, special_word: 'recieve on may 17' },
-    { path1: ImgShopRings5, path2: ImgShopRings11, name: 'Tori Band', price: 2100, special_word: '' },
-    { path1: ImgShopRings6, path2: ImgShopRings12, name: 'Lady Luxe Ring', price: 2800, special_word: '' }
+    { path: ImgShopRings1, path2: ImgShopRings7, name: 'Monroe Cathedral', price: 2100, special_word: 'recieve on may 17' },
+    { path: ImgShopRings2, path2: ImgShopRings8, name: 'Hoop Earring', price: 190, special_word: '' },
+    { path: ImgShopRings3, path2: ImgShopRings9, name: 'Tennis Necklace', price: 16500, special_word: '' },
+    { path: ImgShopRings4, path2: ImgShopRings10, name: 'Joy Pave', price: 1300, special_word: 'recieve on may 17' },
+    { path: ImgShopRings5, path2: ImgShopRings11, name: 'Tori Band', price: 2100, special_word: '' },
+    { path: ImgShopRings6, path2: ImgShopRings12, name: 'Lady Luxe Ring', price: 2800, special_word: '' }
   ];
 
 
